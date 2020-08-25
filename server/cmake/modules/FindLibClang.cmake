@@ -47,6 +47,7 @@ foreach (version ${LIBCLANG_KNOWN_LLVM_VERSIONS})
     "/usr/local/lib/llvm-${version}/include"
     # FreeBSD ports versions
     "/usr/local/llvm${undotted_version}/include"
+    "/usr/local/llvm/${version}/include"
     # Gentoo clang-4
     "/usr/lib/llvm/${version}/include"
     )
@@ -62,6 +63,7 @@ foreach (version ${LIBCLANG_KNOWN_LLVM_VERSIONS})
     "/usr/local/lib/llvm-${version}/lib"
     # FreeBSD ports versions
     "/usr/local/llvm${undotted_version}/lib"
+    "/usr/local/llvm/${version}/lib"
     # Gentoo clang-4
     "/usr/lib/llvm/${version}/lib"
     )
